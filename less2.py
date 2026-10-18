@@ -15,7 +15,8 @@ def read_write(**kwargs):
 
 my_dict = {
     "shevi": "meir",
-    "miri": "bloch"
+    "miri": "bloch",
+    "one":"tow"
 }
 print(count_words('new.txt'))
 read_write(**my_dict)
